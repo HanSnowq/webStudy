@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-size: 15pt;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-family: '黑体'；
+	}
+body{
+	background-color:#4362C4;
+	background-image: url("images/back.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	}
+.contain{
+	width: 100%; height: 670px;
+	overflow: hidden;
+}
+.ctop{
+	background:url("images/buttonbg.png");
+	background-position: center top;
+	width: 100%; height: 80px;
+	filter:alpha(Opacity=60);-moz-opacity:0.6;opacity: 0.6;
+}
+.logo{
+	float: left;
+	width: 100px;
+	height: 80px;
+	margin-left: 15px;
+	background: url("images/Bird.png") no-repeat;
+	background-size: 80px 80px;
+	text-indent: -999em;
+}
+.toptitle{
+	font-size: 40px;
+	font-family: "abril-fatface";
+	color:#FDFDFD;
+	font-style: italic;
+	text-decoration: underline;
+	position: absolute;
+	margin-top: 20px;
+	left: 100px;
+}
+.cmiddle{
+	width: 100%;
+	height: 450px;
+}
+.logbody{
+	background-color:#F5F5F7;
+	background-repeat: no-repeat;
+	margin-top: 7%;
+	margin-left: 55%;
+	width: 500px;
+	height: 400px;
+	filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8;
+}
+.logform{
+	margin-left: 10%;
+	padding-top: 70px;
+	width: 400px;
+	height: 250px;
+}
+.logform ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.logform ul li{
+	margin: 0;
+	list-style: none;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.usernm{
+	width: 300px;height: 50px;
+	background: url("images/loginuser.png") no-repeat;
+	border: none;
+	padding-left: 44px;
+	font-size: 14px;
+	color: #80DEDD;
+}
+.userpsw{
+	width: 300px;height: 50px;
+	background: url("images/loginpassword.png") no-repeat;
+	border: none;
+	padding-left: 44px;
+	font-size: 14px;
+	color: #80DEDD;
+}
+.logbutt{
+	width: 110px;height: 35px;
+	background: url("images/buttonbg.png") repeat-x;
+	font-size: 14px;
+	font-weight:bold;
+	cursor: pointer;
+	line-height: 35px;
+	color:#E2E5E7
+}
+.cbottom{
+	width: 100%;height: 20px;
+	font-size: 14px;
+	position: absolute;
+	bottom: 1px;
+	text-align: center;
+}
+.lab{
+	font-size: 30px;
+	font-weight: bold;
+}
